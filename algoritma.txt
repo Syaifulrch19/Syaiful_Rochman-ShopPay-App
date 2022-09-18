@@ -1,0 +1,17 @@
+Algoritma ShopPay-App
+1. Mulai
+2. Menambahkan Barang
+3. Memasukan jumlah barang
+4. Memasukkan Kedalam Keranjang Belanja
+5. Menghitung total harga barang yang dipilih
+6. Checkout Barang
+        Jika Tidak = Kembali ke no 2
+        Jika Iya = lanjut no 7
+7. Memilih metode pembayaran
+	Jika Saldo Tidak Cukup = Metode pembayaran COD
+	Jika Saldo Cukup Lanjut no 8
+8. Autentifikasi Akun untuk pembayaran
+        Jika Tidak = Register Account
+        Jika Iya = Log in
+9. Proses Pembayaran
+10. Selesai
