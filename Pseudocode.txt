@@ -1,0 +1,25 @@
+Pseudocode ShopPay-App
+
+STORE "Jumlah_Barang" AS Number WITH ANY VALUE
+STORE "Harga" AS Number WITH ANY VALUE
+STORE "Total_Harga" AS INTEGER WITH 0
+
+STORE "Total_Harga" WITH "Jumlah_Barang" TIMES "Harga"
+DISPLAY "Total_Harga"
+
+IF "Sure to Checkout" EQUAL TRUE 
+	Next to METODE PEMBAYARAN
+ELSE
+	Back to Memilih Barang
+
+IF "Saldo" EQUAL OR MORE THAN Total_Harga
+	Next To Autentifikasi Akun Payment
+ELSE
+	Next To Chose Metod CASH ON DELIVERY
+
+IF "AUTENTIFICATION" You Have Account
+	Next to Login
+ELSE
+	Next to Register Account 
+
+PRINT Proses Pembayaran
